@@ -1,0 +1,225 @@
+.header {
+    position: relative;
+    left: 500px;
+}
+
+.myto {
+    position: relative;
+    left: 620px;
+    color: white;
+    margin-bottom: 45px;
+
+}
+
+.form {
+    display: inline;
+    margin-right: 10px;
+    line-height: 1.5;
+    border-bottom: 1px solid rgb(162, 160, 160);
+    padding-bottom: 60px;
+
+}
+
+#all-mid {
+    box-shadow: 0px 0px 10px;
+    background-color: lightgray;
+    padding: 20px;
+    width: 550px;
+    min-height: 600px;
+    position: relative;
+    left: 400px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+}
+
+.add {
+    position: relative;
+    left: 450px;
+    top: 4px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.todo {
+    color: white;
+    background-color: green;
+    border: none;
+    position: relative;
+    right: 2px;
+    padding: 5px 10px;
+    margin-right: px;
+}
+
+.completed {
+    color: white;
+    background-color: rgb(81, 81, 81);
+    border: none;
+    position: relative;
+    right: 2px;
+    padding: 5px 10px;
+}
+
+.btn-sec {
+    position: relative;
+    margin: 5px;
+    top: 80px;
+}
+
+.inputone {
+    position: relative;
+    top: 30px;
+    right: 40px;
+    width: 180px;
+    height: 20px;
+    outline: none;
+    border: 1px solid green;
+}
+
+.inputtwo {
+    position: relative;
+    top: 30px;
+    right: 105px;
+    width: 180px;
+    height: 20px;
+    outline: none;
+    border: 1px solid green;
+}
+
+.tit {
+    font-weight: bold;
+}
+
+.des {
+    position: relative;
+    right: 9px;
+    font-weight: bold;
+}
+
+.completed-title {
+    color: green;
+    font-size: 30px;
+}
+
+.alltodos-title {
+    color: green;
+    font-size: 25px;
+    margin-left:5px ;
+}
+
+.alltodos-description {
+    color: white;
+    position: relative;
+    bottom: 22px;
+    font-weight: 300;
+    padding-right: 80px;
+    margin-left:5px ;
+}
+
+.completed-description {
+    color: white;
+    position: relative;
+    bottom: 22px;
+    font-weight: 300;
+}
+
+.completed-at {
+    color: white;
+    font-family: cursive;
+    position: relative;
+    bottom: 15px;
+    font-size: small;
+}
+
+.completed-item {
+
+    margin-right: 50px;
+    background-color: rgb(62, 62, 62);
+    padding: 10px;
+    margin-bottom: 10px;
+    min-width: 490px;
+    width: auto;
+    position: relative;
+    top: 80px;
+    min-height: 150px;
+}
+
+.alltodos {
+
+    background-color: rgb(62, 62, 62);
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 490px;
+    ;
+    top: 80px;
+
+    min-height: 150px;
+    margin-top: 20px;
+
+    overflow: hidden;
+
+}
+
+.icondelete {
+    position: relative;
+    bottom: 95px;
+    left: 420px;
+    font-size:40px;
+    color: white;
+}
+
+.iconcheck {
+    position: relative;
+    bottom: 100px;
+    left: 420px;
+    font-size: 30px;
+    color: white;
+}
+
+.pending {
+    background-color: rgb(62, 62, 62);
+    padding: 10px;
+    position: relative;
+    width: 490px;
+    height: 140px;
+    top: 80px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.no-completed {
+    background-color: rgb(62, 62, 62);
+    padding: 10px;
+    position: relative;
+    width: 490px;
+    height: 140px;
+    top: 80px;
+    color: white;
+    text-align: center;
+
+}
+
+.icondelete:hover {
+    color: rgb(170, 11, 11);
+}
+
+.iconcheck:hover {
+    color: green;
+}
+
+
+.todo:hover {
+    background-color: rgb(53, 151, 53);
+
+}
+
+.completed:hover {
+    background-color: grey;
+}
